@@ -34,6 +34,7 @@ body{margin:0;background:radial-gradient(120% 70% at 50% 110%,#5a0716 0%,#1a0510
 canvas{display:block;border-radius:10px;border:1px solid #2a1430;box-shadow:0 0 60px rgba(211,23,47,.35);touch-action:none;background:var(--field)}
 .ov{position:absolute;top:0;left:50%;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;text-align:center;
   background:rgba(7,9,26,.82);backdrop-filter:blur(3px);border-radius:10px;padding:24px;box-sizing:border-box}
+.ov[hidden]{display:none}
 .ov h1{font-family:var(--display);font-weight:400;margin:0;font-size:clamp(44px,12vw,68px);line-height:1;transform:skew(-8deg);
   background:linear-gradient(180deg,#fff 30%,#ffc9cf);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 18px rgba(211,23,47,.8))}
 .ov h2{font-family:var(--display);font-weight:400;margin:0;font-size:30px;color:var(--ink);text-wrap:balance}
